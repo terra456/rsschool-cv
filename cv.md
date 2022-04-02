@@ -16,20 +16,20 @@ Skills
     OS Linux(Ubuntu)
     Figma(for web development)
 
-    Code examples
+Code examples
+    Array.prototype.reduce = function(process, initial) {
+        let res = initial || null;
+        for (let el of this) {
+            res ? res = process(res, el) : res = el;
+        };
+        return res;
+    }
 
-    Courses:
+Courses:
     RS Schools Course «JavaScript/Front-end»
 
-    Languages:
+Languages:
     Russian - Native
-    English - Intermediate
+    English - Pre-Intermediate (A2)
 
-    Имя и фамилия
-    Контакты для связи
-    Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
-    Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-    Примеры кода
-    Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-    Образование (включая пройденные курсы и тренинги)
-    Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+
